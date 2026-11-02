@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif-title {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+/* Editorial wireframe grid accent */
+.bg-grid-editorial {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.04) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(0, 0, 0, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.dark .bg-grid-editorial {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Custom subtle scrollbar in terracotta / warm stone */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F4F1EA;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #181512;
+}
+::-webkit-scrollbar-thumb {
+  background: #D6D0C4;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #3B332C;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9C4125;
+}

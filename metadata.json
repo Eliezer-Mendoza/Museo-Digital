@@ -1,0 +1,6 @@
+{
+  "name": "Museo Digital de los Pueblos Originarios de Nicaragua",
+  "description": "Explora la riqueza ancestral mesoamericana de Nicaragua: Cacicazgos de Nicaraos, Chorotegas y Sutiabas, el consejo democrático del Monexico, galería de caciques y minijuegos interactivos de historia precolombina.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

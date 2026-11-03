@@ -19,7 +19,7 @@ export const CACICAZGOS_DATA: Cacicazgo[] = [
     ],
     legadoCultural: 'Aportaron la cosmovisión nahua del Quinto Sol a Nicaragua, la toponimia náhuatl aún presente (Ometepe, Zapatera, Rivas/Nicaragua), el culto a Tamagastad y la alta elocuencia filosófica.',
     simbolo: 'Cacao Sagrado y Doble Volcán',
-    imagenUrl: 'https://placehold.co/800x400/2E7D32/FFFFFF?text=Mapa+de+Cacicazgos'
+    imagenUrl: '/img/mapaNicaraos.jfif'
   },
   {
     id: 'chorotegas',
@@ -39,7 +39,7 @@ export const CACICAZGOS_DATA: Cacicazgo[] = [
     ],
     legadoCultural: 'Creadores del sistema democrático del Monexico, la tradición alfarera viva de San Juan de Oriente y la memoria inmortal de caciques rebeldes como Diriangén.',
     simbolo: 'Jaguar Solar y Cerámica Polícroma',
-    imagenUrl: 'https://placehold.co/800x400/2E7D32/FFFFFF?text=Mapa+de+Cacicazgos'
+    imagenUrl: '/img/mapaChorotegas.jfif'
   },
   {
     id: 'sutiabas',
@@ -59,7 +59,7 @@ export const CACICAZGOS_DATA: Cacicazgo[] = [
     ],
     legadoCultural: 'La identidad comunal de la actual Comunidad Indígena de Sutiaba en León, el arte tradicional del aserrín y las celebraciones sincréticas que honran la raíz prehispánica.',
     simbolo: 'Flor de Izote y Hilado de Algodón',
-    imagenUrl: 'https://placehold.co/800x400/2E7D32/FFFFFF?text=Mapa+de+Cacicazgos'
+    imagenUrl: '/img/mapaMaribios.jfif'
   }
 ];
 
@@ -71,7 +71,7 @@ export const CACIQUES_DATA: Cacique[] = [
     titulo: 'Guerrero Supremo y Cacique de los Chorotegas',
     pueblo: 'Pueblo Chorotega (Diriamba / Carazo)',
     periodo: 'Siglo XVI (Aprox. 1490 - 1530)',
-    imagenUrl: 'https://placehold.co/400x500/3E2723/E6C280?text=Retrato+Cacique',
+    imagenUrl: '/img/caciqueDiriangen.jfif',
     fallbackIcon: 'warrior',
     resumen: 'El primer gran caudillo de la resistencia indígena armada contra la conquista española en Centroamérica. Encabezó la heroica emboscada de Nequecheri el 17 de abril de 1523.',
     historiaCompleta: `Diriangén fue el señor principal del cacicazgo chorotega con cabecera en Diriamba. Joven, apuesto y de imponente presencia marcial, se presentó ante el conquistador Gil González Dávila en abril de 1523 rodeado de un séquito de quinientos guerreros, cada uno portando un pavo de la tierra, hachas de oro fino y penachos de quetzal.
@@ -96,7 +96,7 @@ Cumplido el plazo, el 17 de abril de 1523, Diriangén no regresó a arrodillarse
     titulo: 'Sabio Filósofo y Gobernante Supremo de los Nicaraos',
     pueblo: 'Pueblo Nahua - Nicarao (Quauhcapolca / Rivas)',
     periodo: 'Siglo XVI (Aprox. 1485 - 1528)',
-    imagenUrl: 'https://placehold.co/400x500/3E2723/E6C280?text=Retrato+Cacique',
+    imagenUrl: '/img/caciqueNicarao.jfif',
     fallbackIcon: 'sage',
     resumen: 'El líder intelectual y político que protagonizó el más célebre diálogo filosófico y ontológico entre el mundo mesoamericano y el pensamiento renacentista europeo.',
     historiaCompleta: `Macuilmiquiztli gobernaba el fértil y próspero señorío de Quauhcapolca (actual departamento de Rivas) a orillas del inmenso lago Cocibolca. Los cronistas castellanos lo denominaron erróneamente "Cacique Nicaragua" o "Nicarao", nombre que con el tiempo bautizó a toda la nación.
@@ -125,7 +125,7 @@ Macuilmiquiztli demostró la enorme madurez científica y espiritual del pensami
     titulo: 'Soberano de Tezoatega y Gran Administrador del Comercio',
     pueblo: 'Pueblo Chorotega / Nahua-Influenciado (Occidente)',
     periodo: 'Siglo XVI (Aprox. 1475 - 1526)',
-    imagenUrl: 'https://placehold.co/400x500/3E2723/E6C280?text=Retrato+Cacique',
+    imagenUrl: '/img/caciqueAgateyte.jfif',
     fallbackIcon: 'council',
     resumen: 'Gobernante del señorío más populoso y rico del Pacífico occidental (Chinandega), recordado por el esplendor de sus plazas comerciales y su hábil administración tributaria.',
     historiaCompleta: `Agateyte dominaba el extenso señorío de Tezoatega, ubicado en los alrededores de lo que hoy es El Viejo y Chinandega. Su capital contaba con más de veinte mil habitantes y poseía uno de los Tiangues (mercados) más concurridos de toda la América Central prehispánica.
@@ -150,7 +150,7 @@ Agateyte administraba este enclave cosmopolita con una red de jueces de mercado 
     titulo: 'Sabio Consejero de Nindirí y Orador del Monexico',
     pueblo: 'Pueblo Chorotega (Nindirí / Masaya)',
     periodo: 'Siglo XVI (Aprox. 1480 - 1529)',
-    imagenUrl: 'https://placehold.co/400x500/3E2723/E6C280?text=Retrato+Cacique',
+    imagenUrl: '/img/caciqueTenderí.jfif',
     fallbackIcon: 'sage',
     resumen: 'Líder venerado de Nindirí y voz rectora del Monexico. Destacó por su elocuencia en la defensa de los derechos ancestrales y su consulta constante a la asamblea comunitaria.',
     historiaCompleta: `Tenderí fue el cacique y orador principal del señorío chorotega de Nindirí, asentado en el borde de la exuberante laguna y a la sombra del humeante volcán Masaya (Popogatepe). 
@@ -179,7 +179,7 @@ export const PILARES_MONEXICO: PilarMonexico[] = [
     significadoDemocrático: 'Freno absoluto al capricho individual: ningún cacique ni joven guerrero podía imponer su voluntad personal sobre la comunidad sin el consenso deliberado del consejo.',
     detallePractico: 'Se reunían al atardecer en la plaza del Tiangue, sentados en petates ceremoniales y acompañados por braseros de copal que purificaban el ambiente de la asamblea.',
     icono: 'Users',
-    imagenUrl: 'https://placehold.co/800x400/0277BD/FFFFFF?text=Consejo+Monexico'
+    imagenUrl: '/img/monexico.jfif'
   },
   {
     id: 'eleccion_teythe',
@@ -189,7 +189,7 @@ export const PILARES_MONEXICO: PilarMonexico[] = [
     significadoDemocrático: 'Si el Teythe abusaba de su posición, actuaba con cobardía o traicionaba los pactos comunales, el Monexico tenía la facultad legítima de destituirlo de inmediato y juzgarlo.',
     detallePractico: 'Este principio de revocatoria de mandato prehispánico representó un avance democrático siglos antes de que se teorizara en las constituciones modernas de occidente.',
     icono: 'ShieldCheck',
-    imagenUrl: 'https://placehold.co/800x400/0277BD/FFFFFF?text=Consejo+Monexico'
+    imagenUrl: '/img/caciqueDiriangen.jfif'
   },
   {
     id: 'justicia_reparadora',
@@ -199,7 +199,7 @@ export const PILARES_MONEXICO: PilarMonexico[] = [
     significadoDemocrático: 'Justicia accesible, transparente y sin burocracias: el castigo principal era la compensación a la víctima (frecuentemente en almendras de cacao, mantas o trabajo comunitario forzado).',
     detallePractico: 'Mentir deliberadamente ante el Monexico era castigado con el destierro o la servidumbre comunal, pues la palabra oral era el pilar que sostenía la confianza social.',
     icono: 'Scale',
-    imagenUrl: 'https://placehold.co/800x400/0277BD/FFFFFF?text=Consejo+Monexico'
+    imagenUrl: '/img/Gemini_Generated_Image_2qdu7k2qdu7k2qdu.jfif'
   },
   {
     id: 'distribucion_comunal',
@@ -209,7 +209,7 @@ export const PILARES_MONEXICO: PilarMonexico[] = [
     significadoDemocrático: 'Garantía del derecho a la alimentación: el Monexico redistribuía periódicamente las tierras comunales para evitar la concentración de riqueza y el desamparo de viudas y huérfanos.',
     detallePractico: 'Parte de la cosecha de maíz y frijol de cada familia se destinaba a silos públicos ("trojes") administrados por el consejo para tiempos de sequía o plagas.',
     icono: 'Sprout',
-    imagenUrl: 'https://placehold.co/800x400/0277BD/FFFFFF?text=Consejo+Monexico'
+    imagenUrl: '/img/mapaChorotegas.jfif'
   }
 ];
 
@@ -220,7 +220,7 @@ export const DEIDADES_PANTEON: Deidad[] = [
     dominio: 'Pareja Creadora Primordial del Sol y el Universo',
     descripcion: 'Espíritus divinos supremos que crearon el cielo, la tierra, las fuentes de agua dulce y a la humanidad. Habitan en el oriente cósmico donde nace el sol radiante.',
     simbologia: 'El disco solar naciente y la energía vital creadora.',
-    imagenUrl: 'https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina'
+    imagenUrl: '/img/tamagastad.jfif'
   },
   {
     id: 'quiateot',
@@ -228,7 +228,7 @@ export const DEIDADES_PANTEON: Deidad[] = [
     dominio: 'Señor de las Lluvias, el Trueno y las Cosechas',
     descripcion: 'Deidad análoga a Tláloc en la tradición mesoamericana. De su voluntad dependía que las nubes regaran los maizales del Pacífico o que la sequía azotara los sembrados.',
     simbologia: 'Nubes oscuras, gotas de lluvia y el relámpago serpentino.',
-    imagenUrl: 'https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina'
+    imagenUrl: '/img/quiateot.jfif'
   },
   {
     id: 'chiquinaut',
@@ -236,7 +236,7 @@ export const DEIDADES_PANTEON: Deidad[] = [
     dominio: 'Señor del Viento y Mensajero de los Cerros',
     descripcion: 'El aliento vital que limpia el aire, dispersa las semillas y conecta la voz de los chamanes con los antepasados que habitan en los volcanes.',
     simbologia: 'Espiral de viento y caracol marino ceremonial.',
-    imagenUrl: 'https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina'
+    imagenUrl: '/img/Gemini_Generated_Image_fbin9rfbin9rfbin.jfif'
   },
   {
     id: 'mixcoatl',
@@ -244,7 +244,7 @@ export const DEIDADES_PANTEON: Deidad[] = [
     dominio: 'Patrono de la Cacería, las Nubes y la Vía Láctea',
     descripcion: 'Protector de los rastreadores en la espesura de la selva y guía de las almas guerreras a través del río celeste de estrellas.',
     simbologia: 'Arco, flecha con punta de pedernal y jaguar acechante.',
-    imagenUrl: 'https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina'
+    imagenUrl: '/img/Gemini_Generated_Image_x1x2ycx1x2ycx1x2.jfif'
   }
 ];
 
@@ -258,7 +258,7 @@ export const CERAMICA_PIEZAS: CeramicaPieza[] = [
     descripcion: 'Una de las cumbres estéticas de la alfarería precolombina de Nicaragua. Con tres soportes modelados en forma de cabezas de jaguar o aves rapaces, decorada con franjas geométricas y efigies de serpientes emplumadas.',
     motivosDecorativos: ['Serpiente Emplumada (Quetzalcóatl / Gugumatz)', 'Efigies zoomorfas de jaguar', 'Volutas de nubes y rayos solares'],
     usoCeremonial: 'Utilizada para servir y brindar con chicha de maíz fermentada y cacao amargo durante los tratados de paz y elecciones del Monexico.',
-    imagenUrl: 'https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina'
+    imagenUrl: '/img/vasijatripode.jfif'
   },
   {
     id: 'luna_policromo',
@@ -269,7 +269,7 @@ export const CERAMICA_PIEZAS: CeramicaPieza[] = [
     descripcion: 'Elegante y enigmática cerámica funeraria y ritual hallada principalmente en las islas del lago Cocibolca. Sus trazos finos recuerdan los códices mayas y mixtecos.',
     motivosDecorativos: ['Monos araña estilizados con colas enrolladas', 'Caras humanas esquemáticas con antifaz ceremonial', 'Grecas escalonadas'],
     usoCeremonial: 'Custodiaba reliquias sagradas de antepasados ilustres y se ofrendaba en los santuarios de piedra volcánica de Zapatera.',
-    imagenUrl: 'https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina'
+    imagenUrl: '/img/urna.jfif'
   },
   {
     id: 'metate_zoomorfo',
@@ -280,7 +280,7 @@ export const CERAMICA_PIEZAS: CeramicaPieza[] = [
     descripcion: 'Mesa de molienda ritual tallada en bulto con cabeza esculpida de jaguar felino y tres patas caladas con motivos geométricos entrelazados.',
     motivosDecorativos: ['Mandíbula feroz de jaguar con colmillos salientes', 'Entrelazados textiles en los soportes', 'Plataforma cóncava pulida'],
     usoCeremonial: 'Destinado exclusivamente a la molienda del cacao ceremonial y hierbas medicinales utilizadas por los chamanes de la corte.',
-    imagenUrl: 'https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina'
+    imagenUrl: '/img/metate.jfif'
   }
 ];
 
@@ -292,7 +292,7 @@ export const TRUEQUE_MERCADO_ITEMS: TruequeItem[] = [
     categoria: 'animal',
     descripcion: 'Carne fresca y piel cazada en los matorrales del Pacífico. Registro exacto del cronista Gonzalo Fernández de Oviedo (1528).',
     fuenteCronista: 'Gonzalo Fernández de Oviedo, Historia General y Natural de las Indias',
-    imagenUrl: 'https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo'
+    imagenUrl: '/img/Gemini_Generated_Image_2qdu7k2qdu7k2qdu.jfif'
   },
   {
     id: 'esclavo',
@@ -301,7 +301,6 @@ export const TRUEQUE_MERCADO_ITEMS: TruequeItem[] = [
     categoria: 'bien_lujo',
     descripcion: 'Cautivo de guerra empleado para las labores agrícolas pesadas o asignado como pago por compensación judicial.',
     fuenteCronista: 'Fray Francisco de Bobadilla, Cuestionario a los caciques (1528)',
-    imagenUrl: 'https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo'
   },
   {
     id: 'calabaza',
@@ -310,7 +309,6 @@ export const TRUEQUE_MERCADO_ITEMS: TruequeItem[] = [
     categoria: 'alimento',
     descripcion: 'Alimento básico de la huerta indígena, utilizado tanto su pulpa para guisos como su cáscara seca como huacal contenedor.',
     fuenteCronista: 'Gonzalo Fernández de Oviedo',
-    imagenUrl: 'https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo'
   },
   {
     id: 'tamal',
@@ -318,8 +316,7 @@ export const TRUEQUE_MERCADO_ITEMS: TruequeItem[] = [
     costoCacaoAlmendras: 1,
     categoria: 'alimento',
     descripcion: 'Comida callejera habitual en el Tiangue de Tezoatega y Masaya, cocinado con hojas de plátano silvestre o bijao.',
-    fuenteCronista: 'Crónicas coloniales de Nicaragua',
-    imagenUrl: 'https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo'
+    fuenteCronista: 'Crónicas coloniales de Nicaragua'
   },
   {
     id: 'nisperos',
@@ -327,8 +324,7 @@ export const TRUEQUE_MERCADO_ITEMS: TruequeItem[] = [
     costoCacaoAlmendras: 1,
     categoria: 'alimento',
     descripcion: 'Fruta silvestre exquisita recolectada en los montes templados de Carazo y Masaya.',
-    fuenteCronista: 'Oviedo, tomo IV, fol. 102',
-    imagenUrl: 'https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo'
+    fuenteCronista: 'Oviedo, tomo IV, fol. 102'
   },
   {
     id: 'manta_algodon',
@@ -336,8 +332,7 @@ export const TRUEQUE_MERCADO_ITEMS: TruequeItem[] = [
     costoCacaoAlmendras: 65,
     categoria: 'textil',
     descripcion: 'Tejido artesanal confeccionado por tejedoras sutiabas con bordados geométricos y teñido con añil natural.',
-    fuenteCronista: 'Relaciones de viaje de Gil González Dávila (1523)',
-    imagenUrl: 'https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo'
+    fuenteCronista: 'Relaciones de viaje de Gil González Dávila (1523)'
   }
 ];
 

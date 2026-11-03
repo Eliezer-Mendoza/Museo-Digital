@@ -130,7 +130,7 @@ export const CulturaReligionSection: React.FC = () => {
                     {/* Collage shape */}
                     <div className="absolute -top-3 -left-3 w-36 h-36 rounded-full bg-[#9C4125]/20 dark:bg-[#9C4125]/30 z-0 blur-xs" />
 
-                    <div className="relative z-10 w-full aspect-square overflow-hidden rounded-[2rem] bg-stone-200 dark:bg-stone-900 border border-stone-300 dark:border-stone-800 shadow-md">
+                    <div className="relative z-10 w-full aspect-square overflow-hidden rounded-[2rem] bg-[#e9e3d6] dark:bg-stone-900 border border-stone-300 dark:border-stone-800 shadow-md">
                       <motion.img
                         src={selectedPieza.imagenUrl || "https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina"}
                         alt={selectedPieza.nombre}
@@ -139,7 +139,7 @@ export const CulturaReligionSection: React.FC = () => {
                         viewport={{ once: true }}
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.4 }}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         loading="lazy"
                       />
                     </div>
@@ -201,7 +201,7 @@ export const CulturaReligionSection: React.FC = () => {
                 >
                   <div>
                     {/* Visual Card Image for Deity */}
-                    <div className="relative bg-stone-200 dark:bg-stone-950 aspect-4/3 overflow-hidden m-3 rounded-[1.5rem] border border-stone-300/60 dark:border-stone-800">
+                    <div className="relative bg-[#e9e3d6] dark:bg-stone-950 aspect-4/3 overflow-hidden m-3 rounded-[1.5rem] border border-stone-300/60 dark:border-stone-800">
                       <motion.img
                         src={deidad.imagenUrl || "https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina"}
                         alt={deidad.nombre}
@@ -210,7 +210,7 @@ export const CulturaReligionSection: React.FC = () => {
                         viewport={{ once: true }}
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.4 }}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         loading="lazy"
                       />
                     </div>
@@ -258,16 +258,16 @@ export const CulturaReligionSection: React.FC = () => {
                 {/* Visual Image Card with Collage Shapes (5 cols) */}
                 <div className="lg:col-span-5 relative">
                   <div className="absolute -top-4 -left-4 w-40 h-40 rounded-full bg-[#9C4125]/20 dark:bg-[#9C4125]/30 z-0 blur-xs" />
-                  <div className="relative z-10 rounded-[2rem] overflow-hidden border border-stone-300 dark:border-stone-800 shadow-md aspect-4/3 bg-stone-200 dark:bg-stone-950">
+                  <div className="relative z-10 rounded-[2rem] overflow-hidden border border-stone-300 dark:border-stone-800 shadow-md aspect-4/3 bg-[#e9e3d6] dark:bg-stone-950">
                     <motion.img
-                      src="https://placehold.co/600x400/BF360C/FFFFFF?text=Ceramica+Precolombina"
+                      src="/img/Gemini_Generated_Image_7hc6pc7hc6pc7hc6.jfif"
                       alt="Cacao Sagrado y Cerámica de Nicaragua Prehispánica"
                       initial={{ opacity: 0, y: 30 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.4 }}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                       loading="lazy"
                     />
                   </div>

@@ -133,7 +133,7 @@ export const CacicazgosSection: React.FC = () => {
 
                   {/* Image Container with Organic Rounded Border */}
                   <div className="relative z-10 bg-stone-100 dark:bg-stone-950 p-3 sm:p-4 rounded-[2rem] border border-stone-300 dark:border-stone-800 shadow-md">
-                    <div className="relative overflow-hidden rounded-[1.5rem] aspect-4/3 bg-stone-200 dark:bg-stone-900 border border-stone-300/80 dark:border-stone-800">
+                    <div className="relative overflow-hidden rounded-[1.5rem] aspect-4/3 bg-[#e9e3d6] dark:bg-stone-900 border border-stone-300/80 dark:border-stone-800">
                       <motion.img
                         src={currentCacicazgo.imagenUrl || "https://placehold.co/800x400/2E7D32/FFFFFF?text=Mapa+de+Cacicazgos"}
                         alt={`Mapa y territorio del Cacicazgo ${currentCacicazgo.nombre}`}
@@ -142,7 +142,7 @@ export const CacicazgosSection: React.FC = () => {
                         viewport={{ once: true }}
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.4 }}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         loading="lazy"
                       />
                     </div>

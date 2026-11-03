@@ -129,16 +129,16 @@ export const Hero: React.FC = () => {
 
             {/* Main Visual Image Card with Organic Rounded Border */}
             <div className="relative z-10 bg-white/90 dark:bg-stone-900/90 p-4 sm:p-5 rounded-[2rem] border border-stone-300/90 dark:border-stone-800 shadow-xl backdrop-blur-xs">
-              <div className="relative overflow-hidden rounded-[1.5rem] aspect-4/3 bg-stone-200 dark:bg-stone-800 border border-stone-300/60 dark:border-stone-700">
+              <div className="relative overflow-hidden rounded-[1.5rem] aspect-16/9 bg-[#e9e3d6] dark:bg-stone-800 border border-stone-300/60 dark:border-stone-700">
                 <motion.img
-                  src="https://placehold.co/800x400/2E7D32/FFFFFF?text=Mapa+de+Cacicazgos"
+                  src="/img/mapacacicazgo.jfif"
                   alt="Mapa y Territorios de los Pueblos Originarios de Nicaragua"
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.4 }}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                   loading="lazy"
                 />
               </div>

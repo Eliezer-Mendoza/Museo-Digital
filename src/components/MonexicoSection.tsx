@@ -139,7 +139,7 @@ export const MonexicoSection: React.FC = () => {
                       {/* Collage Background Element */}
                       <div className="absolute -top-3 -left-3 w-32 h-32 rounded-full bg-[#2F4538]/20 dark:bg-[#2F4538]/30 z-0 blur-xs" />
 
-                      <div className="relative z-10 rounded-[1.5rem] overflow-hidden border border-stone-300 dark:border-stone-800 shadow-md aspect-4/3 bg-stone-200 dark:bg-stone-950">
+                      <div className="relative z-10 rounded-[1.5rem] overflow-hidden border border-stone-300 dark:border-stone-800 shadow-md aspect-4/3 bg-[#e9e3d6] dark:bg-stone-950">
                         <motion.img
                           src={activePilar.imagenUrl || "https://placehold.co/800x400/0277BD/FFFFFF?text=Consejo+Monexico"}
                           alt={activePilar.titulo}
@@ -148,7 +148,7 @@ export const MonexicoSection: React.FC = () => {
                           viewport={{ once: true }}
                           whileHover={{ scale: 1.05 }}
                           transition={{ duration: 0.4 }}
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-contain"
                           loading="lazy"
                         />
                       </div>

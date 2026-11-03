@@ -277,16 +277,16 @@ export const MinijuegosSection: React.FC = () => {
                       ★ Enigma Prehispánico
                     </div>
 
-                    <div className="relative z-10 rounded-[1.5rem] overflow-hidden aspect-16/9 sm:aspect-21/9 bg-stone-200 dark:bg-stone-800 border border-stone-300/80 dark:border-stone-800 shadow-md">
+                    <div className="relative z-10 rounded-[1.5rem] overflow-hidden aspect-16/9 sm:aspect-21/9 bg-[#e9e3d6] dark:bg-stone-800 border border-stone-300/80 dark:border-stone-800 shadow-md">
                       <motion.img
-                        src="https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo"
-                        alt="Acertijo Interactivo - El Reto del Monexico"
+                      src="/img/Gemini_Generated_Image_6yxsqh6yxsqh6yxs.jfif"
+                      alt="Ilustración del intercambio de un conejo por almendras de cacao"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.4 }}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         loading="lazy"
                       />
                     </div>
@@ -499,18 +499,27 @@ export const MinijuegosSection: React.FC = () => {
                   >
                     <div>
                       {/* Image Thumbnail with Motion */}
-                      <div className="relative bg-stone-200 dark:bg-stone-900 aspect-4/3 overflow-hidden">
-                        <motion.img
-                          src={item.imagenUrl || "https://placehold.co/600x400/F57F17/1A1A1A?text=Acertijo+Interactivo"}
-                          alt={item.nombre}
-                          initial={{ opacity: 0, y: 30 }}
-                          whileInView={{ opacity: 1, y: 0 }}
-                          viewport={{ once: true }}
-                          whileHover={{ scale: 1.05 }}
-                          transition={{ duration: 0.4 }}
-                          className="w-full h-full object-cover"
-                          loading="lazy"
-                        />
+                      <div className="relative bg-[#e9e3d6] dark:bg-stone-900 aspect-4/3 overflow-hidden">
+                        {item.imagenUrl ? (
+                          <motion.img
+                            src={item.imagenUrl}
+                            alt={item.nombre}
+                            initial={{ opacity: 0, y: 30 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            whileHover={{ scale: 1.05 }}
+                            transition={{ duration: 0.4 }}
+                            className="w-full h-full object-contain"
+                            loading="lazy"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex flex-col items-center justify-center gap-2 text-stone-500 dark:text-stone-400">
+                            <ShoppingBag className="w-8 h-8 opacity-60" aria-hidden="true" />
+                            <span className="text-[10px] uppercase tracking-[0.15em] font-semibold">
+                              Sin ilustración específica
+                            </span>
+                          </div>
+                        )}
                       </div>
 
                       <div className="p-5">

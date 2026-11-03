@@ -70,7 +70,7 @@ export const CaciquesGallery: React.FC = () => {
                   <div className={`absolute -top-4 -right-4 w-32 h-32 rounded-full ${accentColor} z-0 pointer-events-none blur-xs`} />
                   
                   {/* Portrait Container */}
-                  <div className="relative z-10 overflow-hidden bg-stone-950 aspect-4/5 m-3 rounded-[1.5rem] border border-stone-300/60 dark:border-stone-800">
+                  <div className="relative z-10 overflow-hidden bg-[#e9e3d6] dark:bg-stone-950 aspect-4/5 m-3 rounded-[1.5rem] border border-stone-300/60 dark:border-stone-800">
                     <motion.img
                       src={cacique.imagenUrl || "https://placehold.co/400x500/3E2723/E6C280?text=Retrato+Cacique"}
                       alt={`Retrato histórico de ${cacique.nombre}`}
@@ -79,7 +79,7 @@ export const CaciquesGallery: React.FC = () => {
                       viewport={{ once: true }}
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.4 }}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-contain"
                       loading="lazy"
                     />
                     {/* Editorial vignette gradient */}

@@ -73,7 +73,7 @@ export const CaciqueModal: React.FC<CaciqueModalProps> = ({ cacique, onClose }) 
               {/* Collage shape */}
               <div className="absolute -top-3 -left-3 w-28 h-28 rounded-full bg-[#9C4125]/25 dark:bg-[#9C4125]/35 z-0 blur-xs" />
               
-              <div className="relative z-10 rounded-[1.5rem] overflow-hidden border border-stone-300 dark:border-stone-800 shadow-md aspect-4/5 bg-stone-950">
+              <div className="relative z-10 rounded-[1.5rem] overflow-hidden border border-stone-300 dark:border-stone-800 shadow-md aspect-4/5 bg-[#e9e3d6] dark:bg-stone-950">
                 <motion.img
                   src={cacique.imagenUrl || "https://placehold.co/400x500/3E2723/E6C280?text=Retrato+Cacique"}
                   alt={cacique.nombre}
@@ -81,7 +81,7 @@ export const CaciqueModal: React.FC<CaciqueModalProps> = ({ cacique, onClose }) 
                   animate={{ opacity: 1, scale: 1 }}
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>
